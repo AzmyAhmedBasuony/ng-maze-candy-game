@@ -1,0 +1,6 @@
+{
+  "cSpell.words": ["devkit", "ghpage", "mathjax", "mathml", "mfrac", "mrow"],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  }
+}

@@ -1,0 +1,24 @@
+<h2 style="text-align: center">Basic Arithmetics - 2</h2>
+
+<div class="card-row">
+  <div class="card">
+    @for(item of additions;track $index){
+    <p>{{ item }}</p>
+    }
+  </div>
+  <div class="card">
+    @for(item of subtractions;track $index){
+    <p>{{ item }}</p>
+    }
+  </div>
+  <div class="card">
+    @for(item of multiplications;track $index){
+    <p [innerHTML]="item"></p>
+    }
+  </div>
+  <div class="card">
+    @for(item of divisions;track $index){
+    <p [innerHTML]="item"></p>
+    }
+  </div>
+</div>
